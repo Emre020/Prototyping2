@@ -23,7 +23,7 @@ public class Interactable : MonoBehaviour
             if (Input.GetKeyDown(interactKey)) //Player presses Key
             {
                 interactAction.Invoke();
-                
+    
             }
         }
     }

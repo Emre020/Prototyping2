@@ -1618,6 +1618,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 7151775411793451621, guid: 65ef31bd2f9129442ba6354f4433d204, type: 3}
+      propertyPath: obj
+      value: 
+      objectReference: {fileID: 6107853486263939123, guid: 65ef31bd2f9129442ba6354f4433d204, type: 3}
+    - target: {fileID: 8940014430231110620, guid: 65ef31bd2f9129442ba6354f4433d204, type: 3}
+      propertyPath: obj
+      value: 
+      objectReference: {fileID: 6107853486263939123, guid: 65ef31bd2f9129442ba6354f4433d204, type: 3}
     - target: {fileID: 8940014430231110620, guid: 65ef31bd2f9129442ba6354f4433d204, type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2

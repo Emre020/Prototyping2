@@ -20,6 +20,7 @@ public class DoorController : MonoBehaviour
                     manager.UseKey();
                     Debug.Log("Door is unlocked!");
                 }
+
             }
         }
         else
