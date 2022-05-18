@@ -24,7 +24,13 @@ public class DoorController : MonoBehaviour
         }
         else
         {
+            OpenDoor();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
+
+    private void OpenDoor()
+    {
+        Destroy(gameObject);
     }
 }
