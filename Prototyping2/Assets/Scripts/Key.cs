@@ -10,10 +10,16 @@ public class Key : MonoBehaviour
 
     private bool PickUpAllowed;
 
+    public static int KeyAmount;
+    private Text KeyCount;
+
     // Start is called before the first frame update
     void Start()
     {
         PickUpText.gameObject.SetActive(false);
+
+        KeyCount = GetComponent<Text>();
+        KeyAmount = 0;
     }
 
     int key;
@@ -48,17 +54,6 @@ public class Key : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public static int KeyAmount;
-    private Text KeyCount;
-
-    // Start is called before the first frame update
-    void Start1()
-    {
-        KeyCount = GetComponent<Text>();
-        KeyAmount = 0;
-    }
-
-    // Update is called once per frame
     void Update1()
     {
         KeyCount.text = "Keys: " + KeyAmount;

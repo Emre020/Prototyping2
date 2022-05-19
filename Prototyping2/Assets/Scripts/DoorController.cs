@@ -14,7 +14,7 @@ public class DoorController : MonoBehaviour
             PlayerManager manager = obj.GetComponent<PlayerManager>();
             if (manager)
             {
-                if (manager.keyCount > 0)
+                if (KeyCounter.KeyAmount > 0)
                 {
                     isNotOpen = true;
                     manager.UseKey();

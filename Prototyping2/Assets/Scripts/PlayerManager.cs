@@ -5,18 +5,17 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
-    public int keyCount;
     public GameObject interactNotification;
 
     public void PickupKey()
     {
-        keyCount++;
+        KeyCounter.KeyAmount++;
         Debug.Log("Picked up key");
     }
 
     public void UseKey()
     {
-        keyCount--;
+        KeyCounter.KeyAmount--;
         Debug.Log("Used a key");
     }
 
@@ -29,4 +28,5 @@ public class PlayerManager : MonoBehaviour
     {
         interactNotification.SetActive(false);
     }
+
 }
