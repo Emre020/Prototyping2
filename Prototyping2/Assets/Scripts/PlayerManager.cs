@@ -19,6 +19,18 @@ public class PlayerManager : MonoBehaviour
         Debug.Log("Used a key");
     }
 
+    public void PickupAxe()
+    {
+        AxeCounter.AxeAmount++;
+        Debug.Log("Picked up key");
+    }
+
+    public void UseAxe()
+    {
+        AxeCounter.AxeAmount--;
+        Debug.Log("Used a key");
+    }
+
     public void NotifyPlayer()
     {
         interactNotification.SetActive(true);

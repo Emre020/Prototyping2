@@ -17,7 +17,7 @@ public class KetteZerstören : MonoBehaviour
                 if (AxeCounter.AxeAmount > 0)
                 {
                     isNotOpen = true;
-                    manager.UseKey();
+                    manager.UseAxe();
                     Debug.Log("Door is unlocked!");
                 }
             }
